@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+    background-color: #27264C;
+    color: #433f63;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.container {
+    background-color: #cccccce0;
+    border-radius: 10px;
+    margin: 10% 13%;
+}
+
+.pricing {
+    display: flex;
+    padding: 10% 10%;
+    gap : 2;
+}
+
+.card {
+    background-color: #ffffffe8;
+    padding: 2%;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+}
+
+.card-free h2 {
+    background-color: rgba(158, 143, 143, 0.541);
+    color: black;
+}
+
+.card-pro h2 {
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.card-enterprise h2 {
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)
+}

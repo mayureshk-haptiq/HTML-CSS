@@ -24,3 +24,46 @@ a:hover {
 h2 {
   margin-bottom: 20px;
 }
+
+.header {
+  background-color: coral;
+  padding: 20px 20px;
+}
+
+nav {
+  background-color: #ccc;
+}
+
+.main-menu {
+  display: flex;
+}
+
+.main-menu li {
+  padding: 20px 20px;
+}
+
+.main {
+  display: flex;
+  padding: 40px 20px;
+}
+
+section {
+  padding-right: 80px;
+  width: 80%;
+}
+
+aside {
+  width: 20%;
+}
+
+aside h3 {
+  background-color: coral;
+  color: #fff;
+  padding: 10px 10px;
+}
+
+aside ul li {
+  background-color: #ccc;
+  border-bottom: 1px solid #3332328f;
+  padding: 10px;
+}

@@ -1,0 +1,43 @@
+/* body {
+    font-family: "Sour Gummy", sans-serif;
+}
+
+h2 {
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+    font-variant: small-caps;
+    text-decoration: underline dashed black;
+    text-indent: 10px;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+
+p {
+    font-weight: 200;
+
+} */
+
+body {
+    font-family: "Sour Gummy", sans-serif;
+}
+
+.sporty {
+    color : brown;
+}
+
+.casual {
+    color: #af4;
+    /* background-color: #000; */
+}
+
+.formal {
+    color: rgb(150, 10, 190);
+}
+
+.card {
+    /* background-color: rgba(100,20,134,0.5); */
+    background-color: hsl(03, 100%, 80%);
+    opacity: 0.9;
+}
